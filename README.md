@@ -1,4 +1,4 @@
-# Multi-agent-Reinforcement-DialogModel
+# Collaborative Multi-agent Reinforcement Dialog Model
 This is the Collaborative multi-agent dialogue model I am building for my minor project using reinforcement learning.
 
 # Goal
