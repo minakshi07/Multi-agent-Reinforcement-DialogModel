@@ -28,6 +28,11 @@
          "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
          "responses": ["We are open 7am-4pm Monday-Friday!"],
          "context_set": ""
+        },
+        {"tag": "fuck",
+                "patterns": ["what the fuck", "what the fuck are you doing", "the fuck you just said","shut the fuck up","fuck you"],
+                "responses": ["Please calm down","I think you can speak better words"],
+                "context_set": ""
         }
    ]
 }
