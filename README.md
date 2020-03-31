@@ -14,7 +14,10 @@ numpy
 
 # Implementation
 After installing all dependencies stated above you can run the project using <br />
-`python main.py`
+`python bot.py` for your pre-trained agent if there is on dialog flow <br/>
+Enter your client access token, email-id and password <br />
+or <br/>
+`python main.py` for your python chatbot 
 
 
 
