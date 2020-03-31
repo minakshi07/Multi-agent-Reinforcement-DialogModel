@@ -14,8 +14,8 @@ numpy
 
 # Implementation
 After installing all dependencies stated above you can run the project using <br />
-`python bot.py` for your pre-trained agent if there is on dialog flow <br/>
-Enter your client access token, email-id and password <br />
+`python bot.py` and `python userbot.py` for your pre-trained agents if there is on dialog flow <br/>
+Enter your client access token, email-id and password for facebook to run the bots on facebook<br />
 or <br/>
 `python main.py` for your python chatbot 
 
