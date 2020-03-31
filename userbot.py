@@ -2,11 +2,11 @@ from fbchat import  Client, log
 from fbchat.models import *
 import apiai, codecs, json
 
-class Jarvis(Client):
+class UserJarvis(Client):
 
     # Connect to dialogflow
     def apiaiCon(self):
-        self.CLIENT_ACCESS_TOKEN = '491634082d404266b1ca7eccfaef6514'
+        self.CLIENT_ACCESS_TOKEN = '4e7e07cb868d4f1799d361da0ba15b96'
         self.ai = apiai.ApiAI(self.CLIENT_ACCESS_TOKEN)
         self.request = self.ai.text_request()
         self.request.lang = 'de' #Default : English
@@ -49,7 +49,7 @@ class Jarvis(Client):
 
 
 # Create an object of our class, enter your email and password for facebook.
-client=Jarvis('email for appointment fb','password for appointment fb')
+client=UserJarvis('email for user fb','password for user fb')
 
 # Listen for new message
 client.listen()
